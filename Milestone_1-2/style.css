@@ -1,0 +1,193 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+.container1{
+    width: 1000px;
+    height: 100%;
+    background-color: #00618e;
+    border: 1px solid rgb(155, 225, 255);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    margin: 0px auto;
+    margin-top: 150px;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.5);
+}
+.container2{
+    width: 1000px;
+    height: 1300px;
+    background-color: #e5f1ff;
+    border-top-left-radius: 120px;
+    border-top-right-radius: 120px;
+    border-bottom-right-radius: 850px;
+    border: 1px solid rgb(155, 225, 255);
+    margin: 0px auto;
+    margin-top: 50px;
+}
+.resume-container {
+    display: flex;
+    background-color: #00618e;
+    width: 1000px;
+    margin: 0 auto;
+    border-bottom-left-radius: 120px;
+    border-bottom-right-radius: 120px;
+    box-shadow: 0 0 20px rgba(68, 0, 255, 0.1);
+}
+#objective h1{
+    font-size: 45px;
+    margin: 40px 0 0 120px;
+}
+#objective h2{
+    font-size: 35px;
+    margin: 10px 0 0 220px;
+    color: rgba(0, 0, 0, 0.76);
+}
+.icon i{
+    padding: 10px 0 0 0;
+}
+.icon a{
+    text-decoration: none;
+}
+.icon :hover{
+    color: #004d70;
+}
+.profile-picture {
+    width: 200px;
+    height: 200px;
+    margin-top: 10%;
+    border-radius: 50%;
+    border: 5px solid #cecece7d;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+#profile-section p{
+    padding: 0 50px;
+}
+#education-section{
+    padding: 10px 50px;
+}
+#certification-section{
+    padding: 0px 50px;
+}
+#work-experience{
+    padding: 10px 50px;
+}
+.left-section1{
+    display: flex;
+    justify-content: space-around;
+}
+.left-section2{
+    display: flex;
+}
+#personal-info a{
+    text-decoration: none;
+    color: gray;
+}
+#personal-info :hover{
+    color: #0091d5;
+}
+#skills{
+    padding: 10px 30px;
+    margin-left: 25px;
+}
+#skills h3{
+    margin-left: 180px;
+}
+#skills ul li{
+    padding: 5px 0;
+    color: rgb(126, 126, 126);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+}
+.line1, .line2, .line3, .line4, .line5, .line6, .line7, .line8{
+    width: 280px;
+    height: 5px;
+    background-color: rgb(195, 195, 195);
+    border: 1px solid rgb(210, 210, 210);
+    border: 1px solid rgb(99, 167, 255);
+    border-radius: 25px;
+    margin-left: 90px;
+} 
+.linein1{
+    width: 120px;
+    height: 5px;
+    background-color: rgb(99, 167, 255);
+}
+.linein2{
+    width: 100px;
+    height: 5px;
+    background-color: rgb(99, 167, 255);
+}
+.linein3{
+    width: 80px;
+    height: 5px;
+    background-color: rgb(99, 167, 255);
+}
+.linein4{
+    width: 140px;
+    height: 5px;
+    background-color: rgb(99, 167, 255);
+}
+.linein5{
+    width: 20px;
+    height: 5px;
+    background-color: rgb(99, 167, 255);
+}
+.linein6{
+    width: 10px;
+    height: 5px;
+    background-color: rgb(99, 167, 255);
+}
+.linein7{
+    width: 200px;
+    height: 5px;
+    background-color: rgb(99, 167, 255);
+}
+.linein8{
+    width: 250px;
+    height: 5px;
+    background-color: rgb(99, 167, 255);
+}
+button{
+    cursor: pointer;
+    border-radius: 10px; 
+    background-color:#00618e;
+    color: rgb(255, 255, 255);
+}
+button :hover{
+    color: rgb(0, 0, 0);
+}
+#toggle-skills{
+    margin: 0 0 20px 200px;
+    padding: 5px 10px;
+}
+.y-axis1, .y-axis2{
+    width: 1px;
+    height: 140px;
+    background-color: rgba(142, 142, 142, 0.18);
+}
+.y-axis2{
+    margin-left: 63px;
+}
+.footer{
+    width: 1000px;
+    height: 50px;
+    margin: 0 auto;
+    background-color: #00618e;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.footer h6{
+    text-align: center;
+}
+.footer a{
+    text-decoration: none;
+    color: #004d70;
+}
+.footer :hover{
+    color: #ffffff;
+}

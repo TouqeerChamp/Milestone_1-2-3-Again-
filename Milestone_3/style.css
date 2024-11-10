@@ -1,0 +1,135 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1000px;
+    height: 100%;
+    background-color: #e5f1ff;
+    border-radius: 50px;
+    border: 1px solid rgb(155, 225, 255);
+    margin: 200px auto;
+}
+.resume-container {
+    display: flex;
+    background-color: rgb(120, 178, 255);
+    border-top: 15px solid rgb(255, 255, 255);
+    border-bottom: 15px solid rgb(255, 255, 255);
+    width: 1000px;
+    margin: 0 auto;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    box-shadow: 0 0 20px rgba(68, 0, 255, 0.1);
+}
+#objective h1{
+    font-size: 45px;
+    margin: 40px 0 0 80px;
+}
+#objective h2{
+    font-size: 35px;
+    margin: 10px 0 0 220px;
+    color: rgba(0, 0, 0, 0.76);
+}
+.icon i{
+    padding: 10px 0 0 0;
+    padding-left: 30px;
+}
+.icon a{
+    text-decoration: none;
+}
+.profile-picture {
+    width: 200px;
+    height: 200px;
+    margin-top: 10%;
+    border-radius: 50%;
+    border: 5px solid #000000;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+#profile-section p{
+    padding: 0 50px;
+}
+
+/* ============================Dynamic Resume================================= */
+
+form {
+    margin: 0 auto;
+    background-color: rgb(156, 205, 240);
+    border-radius: 2%;
+    box-shadow: 0 4px 8px   rgba(133, 0, 182, 0.5);
+    padding: 20px;
+    max-width: 900px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(34, 0, 255);
+}
+
+fieldset {
+    border: 2px solid rgb(0, 183, 255);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(195, 222, 246);
+}
+
+legend {
+    font-weight: bolder;
+    text-align: center;
+    color: rgb(55, 0, 255);
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: rgb(0, 13, 255);
+
+}
+
+input,textarea {
+    margin-top: 4px;
+    padding: 8px;
+    width: calc(100% - 1px);
+    border: 1px solid skyblue;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    display: block;
+    width: 100%;
+    background-color: skyblue;
+    color: rgb(0, 21, 255);
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button :hover {
+    color: rgb(0, 0, 69);
+}
+
+#resume-display {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid skyblue;
+    border-radius: 8px;
+    background-color: rgb(205, 231, 255);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+#resume-display h2 {
+    color: rgb(0, 119, 255);
+    text-align: center;
+}
