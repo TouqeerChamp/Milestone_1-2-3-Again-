@@ -11,10 +11,10 @@ body {
     border: 1px solid rgb(155, 225, 255);
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
-    border-bottom-left-radius: 60px;
+    border-bottom-left-radius: 50px;
     border-bottom-right-radius: 60px;
     margin: 0px auto;
-    margin-top: 150px;
+    margin-top: 10px;
     box-shadow: 0 35px 55px rgba(0,0,0,0.5);
 }
 .container2{
@@ -23,7 +23,7 @@ body {
     background-color: #e5f1ff;
     border-top-left-radius: 120px;
     border-top-right-radius: 120px;
-    border-bottom-right-radius: 850px;
+    border-bottom-right-radius: 500px;
     border: 1px solid rgb(155, 225, 255);
     margin: 0px auto;
     margin-top: 50px;
@@ -91,14 +91,14 @@ body {
     color: #0091d5;
 }
 #skills{
-    padding: 10px 30px;
-    margin-left: 25px;
+    padding: 0px 0px;
+    margin-left: 40px;
 }
 #skills h3{
-    margin-left: 180px;
+    margin-left: 30px;
 }
 #skills ul li{
-    padding: 5px 0;
+    padding: 0px 0;
     color: rgb(126, 126, 126);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 900;
@@ -113,12 +113,12 @@ body {
     margin-left: 90px;
 } 
 .linein1{
-    width: 120px;
+    width: 200px;
     height: 5px;
     background-color: rgb(99, 167, 255);
 }
 .linein2{
-    width: 100px;
+    width: 220px;
     height: 5px;
     background-color: rgb(99, 167, 255);
 }
@@ -133,22 +133,22 @@ body {
     background-color: rgb(99, 167, 255);
 }
 .linein5{
-    width: 20px;
+    width: 100px;
     height: 5px;
     background-color: rgb(99, 167, 255);
 }
 .linein6{
-    width: 10px;
+    width: 210px;
     height: 5px;
     background-color: rgb(99, 167, 255);
 }
 .linein7{
-    width: 200px;
+    width: 270px;
     height: 5px;
     background-color: rgb(99, 167, 255);
 }
 .linein8{
-    width: 250px;
+    width: 150px;
     height: 5px;
     background-color: rgb(99, 167, 255);
 }
@@ -158,7 +158,7 @@ button{
     background-color:#00618e;
     color: rgb(255, 255, 255);
 }
-button :hover{
+button:hover{
     color: rgb(0, 0, 0);
 }
 #toggle-skills{
@@ -171,7 +171,7 @@ button :hover{
     background-color: rgba(142, 142, 142, 0.18);
 }
 .y-axis2{
-    margin-left: 63px;
+    margin-left: 52px;
 }
 .footer{
     width: 1000px;
